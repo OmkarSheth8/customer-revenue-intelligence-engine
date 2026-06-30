@@ -51,18 +51,8 @@ Outputs PASS / WARN / FAIL per check. Exits with code 1 if any check fails.
 
 ---
 
-## Data generation notebooks
+## Source Notes
 
-The full generation pipeline is in `notebooks/`:
+The original data generation work was developed during the project build process. This folder now contains clean reference scripts that document the synthetic data generation and validation approach used for the project.
 
-```
-notebooks/
-  01_generate_accounts.ipynb
-  02_generate_product_usage_events.ipynb
-  03_generate_crm_opportunities.ipynb
-  04_generate_customer_engagement.ipynb
-  05_generate_actions.ipynb
-  06_generate_score_history.ipynb
-  07_generate_experiments.ipynb
-  08_generate_system_logs.ipynb
-```
+The committed sample CSVs in `data/sample/` provide small representative datasets, while the production demo uses the larger synthetic dataset loaded into Supabase PostgreSQL.

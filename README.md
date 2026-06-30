@@ -2,11 +2,7 @@
 
 A full-stack revenue intelligence platform for B2B SaaS teams. Surfaces account health, churn risk, expansion opportunity, and structured action playbooks -- all computed deterministically from behavioral signals.
 
-1. **Live Demo:** [customer-revenue-intelligence-engin.vercel.app](https://customer-revenue-intelligence-engin.vercel.app)
-
-2. **Backend API:** [customer-revenue-intelligence-engine.onrender.com](https://customer-revenue-intelligence-engine.onrender.com)
-
-3. **Health Check:** [/health](https://customer-revenue-intelligence-engine.onrender.com/health)
+**Live Demo:** [customer-revenue-intelligence-engin.vercel.app](https://customer-revenue-intelligence-engin.vercel.app)
 
 ---
 

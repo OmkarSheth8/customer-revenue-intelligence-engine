@@ -1,0 +1,16 @@
+﻿score_id,account_id,health_score,churn_score,expansion_score,score_reason,calculated_at
+5c6ef42f-909b-409d-8ae2-a068b26b7373,05a46528-100d-41a6-bcb3-c8040fb11826,44.88,66.57,22.58,Declining engagement and elevated risk signals indicate churn concern.,2025-08-02
+fed22a2f-b136-4eab-bca4-ca4e9b4f6a23,05a46528-100d-41a6-bcb3-c8040fb11826,46.05,65.67,20.56,Declining engagement and elevated risk signals indicate churn concern.,2025-09-01
+fb54848b-ed2b-423e-8f77-544142719ba3,05a46528-100d-41a6-bcb3-c8040fb11826,41.1,67.9,19.9,Declining engagement and elevated risk signals indicate churn concern.,2025-10-01
+fe827c86-c22d-469d-995c-38a2b7f99c30,05a46528-100d-41a6-bcb3-c8040fb11826,39.59,69.52,19.48,Declining engagement and elevated risk signals indicate churn concern.,2025-10-31
+2a6898e7-f69a-4577-9958-35ef4f003077,05a46528-100d-41a6-bcb3-c8040fb11826,40.17,71.31,18.23,Declining engagement and elevated risk signals indicate churn concern.,2025-11-30
+e71649de-c092-4eff-8cc2-566ec250b348,05a46528-100d-41a6-bcb3-c8040fb11826,39.72,72.15,18.1,Declining engagement and elevated risk signals indicate churn concern.,2025-12-30
+832f09f0-a0a1-4b2f-869b-4deeb3cdf475,05a46528-100d-41a6-bcb3-c8040fb11826,37.78,75.19,14.5,Declining engagement and elevated risk signals indicate churn concern.,2026-01-29
+4db2c6d0-fc24-4c01-b80e-ea7e0e71ebdd,05a46528-100d-41a6-bcb3-c8040fb11826,37.31,76.87,13.25,Declining engagement and elevated risk signals indicate churn concern.,2026-02-28
+00514e0d-a2be-4b6b-8379-f0c872db5c2b,05a46528-100d-41a6-bcb3-c8040fb11826,32.37,80.62,14.29,Declining engagement and elevated risk signals indicate churn concern.,2026-03-30
+a6dcf0cc-21bd-43fc-8278-91a876f42c4d,05a46528-100d-41a6-bcb3-c8040fb11826,33.71,81.84,13.02,Declining engagement and elevated risk signals indicate churn concern.,2026-04-29
+c528b200-84f6-4530-85f5-cef8890fe118,05a46528-100d-41a6-bcb3-c8040fb11826,32.88,82.14,12.08,Declining engagement and elevated risk signals indicate churn concern.,2026-05-29
+ea2680fb-4dc8-4854-8da5-73e3198ecd77,05a46528-100d-41a6-bcb3-c8040fb11826,30.8,84.8,12.32,Declining engagement and elevated risk signals indicate churn concern.,2026-06-28
+ac8d1cf0-0591-494a-a761-dda7bb979ead,8ea06ae6-32c8-4115-adb0-e9f678be9afe,87.57,18.25,44.46,"Strong product usage, high engagement, and low churn risk.",2025-08-02
+836ae8fc-6ef9-4b73-a336-e020cf54f7f4,8ea06ae6-32c8-4115-adb0-e9f678be9afe,88.39,17.0,45.86,"Strong product usage, high engagement, and low churn risk.",2025-09-01
+8dc6a287-027c-497e-83d2-5ce22a7df464,8ea06ae6-32c8-4115-adb0-e9f678be9afe,90.8,17.55,46.83,"Strong product usage, high engagement, and low churn risk.",2025-10-01

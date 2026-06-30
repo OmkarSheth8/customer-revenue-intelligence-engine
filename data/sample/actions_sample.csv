@@ -1,0 +1,16 @@
+﻿action_id,account_id,recommended_action,assigned_to,priority,status,due_date,completed_at,outcome,created_at
+b6dd1e94-5ae7-4b70-ba18-507285b4790a,715ca27c-ad21-4233-a84d-cd932cd03b5a,Check feature usage gaps,James Wilson,Medium,Pending,2026-07-01,,,2026-06-24 16:04:15.921120
+99e54959-8e95-43ea-833a-6d920703f94c,817e548c-b536-4f57-8f4f-998a7c3acc8a,Send upsell proposal,James Wilson,High,Pending,2026-06-24,,,2026-06-20 16:04:15.921120
+bb1494f1-d04f-42e3-b7ce-94931aece6ea,593e7c3c-b363-43d0-9420-1d1d03bc972c,Schedule executive business review,Emily Davis,High,Completed,2026-06-07,2026-06-04 16:04:15.921120,Training completed,2026-06-04 16:04:15.921120
+2ac4da00-4ed7-4652-806c-a865cf668c38,b7c3999b-47d5-4ac2-be56-fcd3d4c01c76,Share product best practices,James Wilson,Medium,Completed,2026-07-03,2026-06-26 16:04:15.923136,Renewal risk reduced,2026-06-26 16:04:15.923136
+0e380493-15dc-4789-b97b-a0b47d4b6d88,4975ba78-2eba-4a75-b7cf-0b6d854b3d87,Review feature adoption with AE,Michael Chen,High,Pending,2026-06-18,,,2026-06-11 16:04:15.923136
+b7b0d82e-a00d-4678-9929-7921259e9559,a46c7f41-4d09-494c-be4e-763ec2658eb2,Schedule expansion discovery call,Priya Patel,High,Pending,2026-06-14,,,2026-06-10 16:04:15.923136
+236c2a9d-b518-4bc8-9e97-a93f515dce79,6b7a4f5b-d4d9-40ce-9278-532fb6cb075e,Review contract value,Michael Chen,High,In Progress,2026-06-26,,,2026-06-20 16:04:15.923136
+c23f788f-5d35-4702-b374-4bb3c9471383,8bf75f34-ffac-4b6c-b249-fd99ebf20c44,Review support issues,David Rodriguez,Critical,Completed,2026-06-03,2026-06-02 16:04:15.925176,Customer replied positively,2026-06-02 16:04:15.925176
+6962099f-62d9-4481-aa50-d9b575f0a384,03fc5298-2866-496c-a128-0ae5637dca48,Share product best practices,Emily Davis,Medium,Dismissed,2026-06-28,,Action no longer relevant,2026-06-17 16:04:15.925176
+4f466bc6-3414-4b91-b80c-a6937c6455b5,117d100f-69c5-4e56-8b70-c440471dd32a,Schedule onboarding checkpoint,Emily Davis,Medium,Pending,2026-06-15,,,2026-06-03 16:04:15.925176
+0f47d49b-ee2c-47b0-8ce6-be507880658b,88ab86c2-69fa-4539-a737-a7bdf6bf753f,Monitor account health,David Rodriguez,Low,Pending,2026-07-21,,,2026-06-25 16:04:15.926745
+0e7c9c8a-8a7f-4091-ac97-b851032feaa5,4c1ca639-e29d-4c09-9623-cb5581d25b6e,Schedule onboarding checkpoint,Emily Davis,Medium,In Progress,2026-06-28,,,2026-06-16 16:04:15.926745
+fc6807e6-ea53-4a39-af55-e5d73af8ac1e,dbb534d2-c9bf-4560-962d-847f2db60233,Check feature usage gaps,Sarah Johnson,Medium,In Progress,2026-06-26,,,2026-06-19 16:04:15.926745
+b50f13de-2479-4ea9-8b51-a3c9ecb08b1a,9467cac2-9909-4068-9ead-d0c351bfae3a,Identify additional teams for rollout,Priya Patel,High,Pending,2026-06-13,,,2026-06-10 16:04:15.926745
+a90a9e7e-aefb-4219-8933-cff8cce5a93a,e8db8b79-8efa-4d6a-9927-fbf2633fd198,Share product best practices,Sarah Johnson,Medium,Pending,2026-07-06,,,2026-06-25 16:04:15.926745

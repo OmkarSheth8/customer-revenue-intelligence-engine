@@ -2,9 +2,11 @@
 
 A full-stack revenue intelligence platform for B2B SaaS teams. Surfaces account health, churn risk, expansion opportunity, and structured action playbooks -- all computed deterministically from behavioral signals.
 
-**Live Demo:** [customer-revenue-intelligence-engin.vercel.app](https://customer-revenue-intelligence-engin.vercel.app)
-**API:** [customer-revenue-intelligence-engine.onrender.com](https://customer-revenue-intelligence-engine.onrender.com)
-**Health:** [/health](https://customer-revenue-intelligence-engine.onrender.com/health)
+1. **Live Demo:** [customer-revenue-intelligence-engin.vercel.app](https://customer-revenue-intelligence-engin.vercel.app)
+
+2. **Backend API:** [customer-revenue-intelligence-engine.onrender.com](https://customer-revenue-intelligence-engine.onrender.com)
+
+3. **Health Check:** [/health](https://customer-revenue-intelligence-engine.onrender.com/health)
 
 ---
 
@@ -212,6 +214,19 @@ To load the full schema and synthetic dataset into your own PostgreSQL instance:
 psql "postgresql://user:password@host:5432/database" -f deployment/schema_supabase_clean.sql
 psql "postgresql://user:password@host:5432/database" -f deployment/data.sql
 ```
+
+---
+
+## Project Logic and Documentation
+
+The repo includes documentation and SQL files that explain the logic behind the live application:
+
+- [docs/FEATURE_ENGINEERING.md](docs/FEATURE_ENGINEERING.md) -- How raw account, usage, CRM, engagement, and action data are converted into account-level business metrics by the SQL feature engineering layer.
+- [docs/SCORING_LOGIC.md](docs/SCORING_LOGIC.md) -- Deterministic health, churn risk, expansion, priority tier, and business motion classification logic with exact SQL thresholds.
+- [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md) -- All 8 base tables, column definitions, row counts, and a summary of all 16 engineered views.
+- [sql/](sql/) -- Database schema, feature engineering views, scoring engine, action playbook, dashboard views, and validation queries split into readable layers.
+- [data/sample/](data/sample/) -- Small representative sample CSVs (15 rows each) for all 8 tables.
+- [scripts/python/](scripts/python/) -- Reference scripts for synthetic data generation and pre-import validation.
 
 ---
 

@@ -1,0 +1,16 @@
+﻿account_id,company_name,industry,segment,company_size,annual_recurring_revenue,plan_type,customer_stage,account_owner,contract_start_date,renewal_date,created_at,updated_at
+05a46528-100d-41a6-bcb3-c8040fb11826,MetricCloud,FinTech,Startup,20,9506,Starter,At Risk,David Rodriguez,2026-02-22,2027-02-22,2026-02-22,2026-06-28 15:06:25.874270
+8ea06ae6-32c8-4115-adb0-e9f678be9afe,PulseLabs,MarTech,Startup,38,11912,Starter,Healthy,Michael Chen,2026-06-11,2027-06-11,2026-06-11,2026-06-28 15:06:25.874270
+e96ba5f8-5698-4095-9663-7f362c90f8f7,CoreSync,MarTech,Startup,37,8257,Starter,Active,James Wilson,2025-07-30,2026-07-30,2025-07-30,2026-06-28 15:06:25.874270
+6b7a4f5b-d4d9-40ce-9278-532fb6cb075e,LoopStack,Cybersecurity,Mid-Market,207,25464,Growth,Renewal,Michael Chen,2025-07-05,2026-07-05,2025-07-05,2026-06-28 15:06:25.874270
+44a50084-3516-4067-a2b9-f7aaaf1338bf,ForgeOps,DevTools,SMB,137,21699,Growth,Expansion Candidate,Emily Davis,2026-05-11,2027-05-11,2026-05-11,2026-06-28 15:06:25.874270
+64f8014b-7396-4e26-9177-45fe4b80ca84,CloudForge,FinTech,Mid-Market,245,45109,Growth,At Risk,Priya Patel,2025-09-26,2026-09-26,2025-09-26,2026-06-28 15:06:25.874270
+067b7ae6-746b-4560-a896-0df7136fe844,InsightLabs,HealthTech,Mid-Market,844,131071,Professional,Active,David Rodriguez,2025-12-24,2026-12-24,2025-12-24,2026-06-28 15:06:25.874270
+ea8ad6cc-8b6c-4f20-8cac-9b6956330c7d,CloudForge,Cybersecurity,SMB,125,20230,Growth,Active,James Wilson,2026-02-28,2027-02-28,2026-02-28,2026-06-28 15:06:25.874270
+b18a66ca-0971-49df-89d7-30fa7fed4c3c,InsightHub,FinTech,Mid-Market,367,98521,Professional,Healthy,Priya Patel,2025-12-28,2026-12-28,2025-12-28,2026-06-28 15:06:25.874270
+3d970b8e-dcd8-43f6-9670-6d480d01334a,PilotForge,Cybersecurity,SMB,187,31044,Growth,Active,David Rodriguez,2026-04-05,2027-04-05,2026-04-05,2026-06-28 15:06:25.882085
+03fc5298-2866-496c-a128-0ae5637dca48,LedgerStack,EdTech,SMB,134,18666,Growth,Active,Emily Davis,2026-03-02,2027-03-02,2026-03-02,2026-06-28 15:06:25.882085
+c334fe38-636e-4bcb-a5d0-28518fd5c096,Insightly,EdTech,Startup,26,14292,Starter,Healthy,David Rodriguez,2026-01-17,2027-01-17,2026-01-17,2026-06-28 15:06:25.882085
+9467cac2-9909-4068-9ead-d0c351bfae3a,MetricHub,EdTech,Enterprise,1586,288874,Enterprise,Expansion Candidate,Priya Patel,2026-04-17,2027-04-17,2026-04-17,2026-06-28 15:06:25.882085
+462554a2-d9f2-470b-90e7-e92f076d493f,Nexusly,FinTech,Enterprise,2483,264988,Enterprise,Healthy,Sarah Johnson,2026-04-18,2027-04-18,2026-04-18,2026-06-28 15:06:25.882085
+0c729dd9-09e5-46c0-a93b-04a7b794eb9c,LoopLabs,EdTech,Startup,24,7621,Starter,Onboarding,James Wilson,2025-07-14,2026-07-14,2025-07-14,2026-06-28 15:06:25.882085

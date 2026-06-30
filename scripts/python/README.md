@@ -25,7 +25,7 @@ Documents how the 8 synthetic tables were generated:
 - Score history generated as 12 monthly records per account with directional trend
 - Experiments and system logs are independent of the account FK graph
 
-The actual generation was done in the Jupyter notebooks under `notebooks/`. This script documents the logic and design decisions for reproducibility.
+This script documents the logic and design decisions for reproducibility.
 
 ---
 

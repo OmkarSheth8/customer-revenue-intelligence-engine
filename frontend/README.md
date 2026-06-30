@@ -1,32 +1,44 @@
-# React + TypeScript + Vite
+# Frontend — Customer Revenue Intelligence Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React 19 + TypeScript dashboard built with Vite.
 
-Currently, two official plugins are available:
+**Live:** [customer-revenue-intelligence-engin.vercel.app](https://customer-revenue-intelligence-engin.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+frontend/
+  src/
+    components/     # Dashboard panels, account table, score tiles, AI explanation
+    lib/
+      api.ts        # All API calls — reads VITE_API_BASE_URL or falls back to /api proxy
+    App.tsx
+    main.tsx
+  vite.config.ts    # /api proxy → http://127.0.0.1:8000 (local dev only)
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+The Vite dev server proxies `/api/*` to `http://127.0.0.1:8000`. No `.env` file needed locally — just have the backend running.
+
+## Production Build
+
+```bash
+npm run build
+```
+
+Set `VITE_API_BASE_URL=https://your-render-backend.onrender.com` in Vercel before deploying.
+The app falls back to `/api` (Vite proxy) when this variable is unset, so local dev is unchanged.
+
+## Key Design Decisions
+
+- **No modal overlays.** The account detail panel pushes the dashboard content left (380px inline panel). No z-index stacking, no focus traps.
+- **60-second auto-refresh.** Dashboard polls the backend every 60 seconds without requiring a manual reload.
+- **AI is opt-in.** The AI explanation is only triggered when the user clicks "Explain This Plan". No automatic calls.
